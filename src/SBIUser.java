@@ -70,7 +70,7 @@ public class SBIUser implements BankInterface {
     }
 
     @Override
-    public String withdrawMoney(int money, String enteredPassword) {
+    public String withdrawMoney(int money, String enteredPassword) { // wihtdraw
         if(Objects.equals(enteredPassword , password));
 
         return "balance after withdrawn : " + (balance - money);

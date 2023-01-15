@@ -1,7 +1,7 @@
 public class HDFCUser implements BankInterface{
 
     @Override
-    public double checkBalance() {
+    public double checkBalance() { // hdfc
         return 0;
     }
 
