@@ -17,10 +17,11 @@ public class Main {
         System.out.println(message);
 
         // withdraw money
-        System.out.println("Enter amout you want to withdraw and password ");
-        int money = sc.nextInt();
+        System.out.println("Enter password ");
         String p = sc.nextLine();
-        System.out.println();
+
+//        System.out.println("Enter amount which u want to withdraw ");
+        int money = sc.nextInt();
 
         System.out.println(sbiuser.withdrawMoney(money , p));
 
